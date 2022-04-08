@@ -1,0 +1,10 @@
+.edu_type {
+  height: 200px;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+.edu_type h4 {
+  font-weight: 700;
+  text-align: left;
+}

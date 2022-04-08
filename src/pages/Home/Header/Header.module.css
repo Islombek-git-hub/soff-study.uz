@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 0 0 0.8em 0.8rem;
+  box-shadow: 0 0 20px #ddd;
+}
+.logo {
+  line-height: 60px;
+  font-size: 0.8rem;
+}

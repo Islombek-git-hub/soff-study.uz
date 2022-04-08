@@ -1,0 +1,41 @@
+.directions {
+  margin-top: 2.5rem;
+}
+.courses {
+  padding: 2rem 0;
+}
+.directions_head {
+  width: 70%;
+}
+.courses .edu_type2 {
+  height: 200px;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+.courses .edu_type2 h4 {
+  font-weight: 700;
+  text-align: left;
+}
+@media (max-width: 1130px) {
+  .directions_head {
+    width: 85%;
+  }
+  .directions_head h2 {
+    font-size: 1.6rem;
+  }
+  .directions_head p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1130px) {
+  .directions_head {
+    width: 100%;
+  }
+  .directions_head h2 {
+    font-size: 1.4rem;
+  }
+  .directions_head p {
+    font-size: 0.7rem;
+  }
+}
