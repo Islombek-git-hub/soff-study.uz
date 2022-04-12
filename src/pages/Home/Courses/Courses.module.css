@@ -1,0 +1,10 @@
+.courses_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.courses_container h2 {
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}

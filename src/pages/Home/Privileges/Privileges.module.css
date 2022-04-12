@@ -1,0 +1,17 @@
+.privileges {
+  padding: 2rem 0;
+}
+.privileges_container {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #ddd;
+}
+.privileges_container h1 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.privileges_container p {
+  width: 80%;
+  line-height: 150%;
+}

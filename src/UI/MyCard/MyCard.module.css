@@ -1,0 +1,39 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 10px #ddd;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+  position: relative;
+  padding: 2rem;
+}
+.card:hover .card_icon {
+  background-color: #21a6b3;
+}
+.card:hover img {
+  display: block;
+}
+.card p {
+  font-size: 1.5rem;
+}
+.card img {
+  display: none;
+}
+.card_icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 250px;
+    height: 170px;
+  }
+}
