@@ -7,9 +7,9 @@ const Advice = () => {
         <div>
           <h2>O'zingizga mos yo'nalish tanlang</h2>
           <p>
-            Dasturlash sohasida eng rivojlangan va talabi yuqori bo'lgan
-            kurslardan birini tanlang. Kurs davomida portfolio to'plash, rezyume
-            hosil qilish va ish topishingizga esa biz yordam beramiz.
+            Hozirgi kunda talab yuqori va rivojlanib borayotgan kurslardan
+            birini tanlang. Kurs davomida portfolio to'plash, rezyume hosil
+            qilish va ish topishingizga esa biz yordam beramiz.
           </p>
         </div>
       </div>

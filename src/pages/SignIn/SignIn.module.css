@@ -1,0 +1,56 @@
+.signIn {
+  width: 100vw;
+  height: auto;
+}
+.sign_in_container {
+  height: 100%;
+  display: flex;
+}
+.form_sign_in {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+.form_sign_in input {
+  margin: 0.5rem 0;
+}
+.form_sign_in h4 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.form_sign_in button {
+  margin-top: 0.5rem;
+}
+.img_sign_in {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.img_sign_in img {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .sign_in_container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .form_sign_in {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .img_sign_in {
+    margin-bottom: 3rem;
+    height: auto;
+  }
+}

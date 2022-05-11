@@ -1,23 +1,32 @@
 .card {
-  background-color: #fff;
-  box-shadow: 0 0 10px #ddd;
-  width: 350px;
-  height: 200px;
+  background-color: #444;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   position: relative;
   padding: 2rem;
+  color: #fff !important;
+}
+
+.card_icon {
+  background-color: #555;
 }
 .card:hover .card_icon {
-  background-color: #21a6b3;
+  background-color: #44bd32;
 }
 .card:hover img {
-  display: block;
+  height: 10rem;
 }
 .card p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  padding-right: 3rem;
 }
 .card img {
-  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 9rem;
+  transform: translateX(-50%);
 }
 .card_icon {
   width: 3rem;
@@ -29,11 +38,42 @@
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
+  color: #fff;
 }
 
 @media (max-width: 900px) {
-  .card {
-    width: 250px;
-    height: 170px;
+  .card:hover img {
+    height: 6rem;
+  }
+  .card p {
+    font-size: 1.3rem;
+    padding-right: 3rem;
+  }
+  .card img {
+    height: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  .card:hover img {
+    height: 10rem;
+  }
+  .card p {
+    font-size: 1.4rem;
+    padding-right: 3rem;
+  }
+  .card img {
+    height: 9rem;
+  }
+}
+@media (max-width: 550px) {
+  .card:hover img {
+    height: 6rem;
+  }
+  .card p {
+    font-size: 1.3rem;
+    padding-right: 3rem;
+  }
+  .card img {
+    height: 5rem;
   }
 }

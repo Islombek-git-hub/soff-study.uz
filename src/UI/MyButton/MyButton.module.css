@@ -1,0 +1,28 @@
+.btn {
+  height: 2.5rem;
+  width: fit-content;
+  padding: 0 3rem;
+  background-color: #44bd32;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+@media (max-width: 950px) {
+  .btn {
+    font-size: 0.8rem;
+    height: 2.2rem;
+  }
+}
+@media (max-width: 750px) {
+  .btn {
+    font-size: 0.6rem;
+    height: 2rem;
+  }
+}

@@ -9,12 +9,16 @@
   text-decoration: none;
 
   font-family: "Montserrat", sans-serif;
-  color: #274c77;
+
   transition: 0.2s all;
 }
+*::selection {
+  background-color: #44bd32;
+  color: #ffffff;
+}
 body {
-  background-color: #f1f2f6 !important;
-  color: #1976d2;
+  background-color: #3d3d3d;
+  color: #ffffff;
   overflow-x: hidden;
 }
 .container {
@@ -22,7 +26,7 @@ body {
   margin: auto;
 }
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 2px;
 }
 
 /* Track */
@@ -32,17 +36,44 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1976d2;
+  background: #44bd32;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #6fa2d4;
+  background: #64a859;
   border-radius: 5px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 100%;
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 3px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #44bd32;
+  border-radius: 2px;
 }
 
 @media (max-width: 1200px) {
   .container {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .title {
+    font-size: 1.3rem;
   }
 }

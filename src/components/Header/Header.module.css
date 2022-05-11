@@ -1,12 +1,11 @@
 .Header {
   width: 100%;
   height: auto;
-  box-shadow: 0 5px 20px #ddd;
   background-color: #fff;
+  color: #3d3d3d;
 }
 .h_container {
   height: 60px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;

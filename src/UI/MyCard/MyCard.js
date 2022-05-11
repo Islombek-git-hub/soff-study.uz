@@ -4,7 +4,7 @@ import styles from "./MyCard.module.css";
 import { FiArrowUpRight } from "react-icons/fi";
 const Mycard = ({ title, url, img }) => {
   return (
-    <Link style={{ margin: "1rem" }} to={`/${url}`}>
+    <Link to={`/${url}`}>
       <div className={styles.card}>
         <p>{title}</p>
         <img src={img} alt={title} />
